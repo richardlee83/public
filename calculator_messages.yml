@@ -1,0 +1,54 @@
+# calculator_messages.yml
+
+# English
+en:
+  welcome: 'Welcome to Calculator!'
+  name: 'Please enter your name:'
+  name_error: 'Make sure to use a valid name.'
+  greet: 'Hello'
+  first_number: 'Enter the first number:'
+  number_error: 'That is not a valid number.'
+  second_number: 'Enter the second number:'
+  operator: |
+            Select an operation to perform:
+              1) add
+              2) subtract
+              3) multiply
+              4) divide
+  operator_error: 'Invalid operation selected.'
+  add: 'Adding the two numbers...'
+  subtract: 'Subtracting the two numbers...'
+  multiply: 'Multiplying the two numbers...'
+  divide: 'Dividing the two numbers...'
+  result: 'The result of the operation on the two numbers is:'
+  repeat: 'Did you want to perform another calculation? (Y to calculate again)'
+  goodbye: 'Thank you for using the calculator, goodbye!'
+
+# French
+fr:
+  welcome: 'Bienvenue sur Calculatrice !'
+  name: "S'il vous plaît entrez votre nom:"
+  name_error: "Assurez-vous d'utiliser un nom valide."
+  greet: 'Bonjour'
+  first_number: 'Entrez le premier numéro:'
+  number_error: "Ce n'est pas un nombre valide."
+  second_number: 'Entrez le deuxième numéro:'
+  operator: |
+            Sélectionnez une opération à effectuer :
+              1) ajouter
+              2) soustraire
+              3) multiplier
+              4) diviser
+  operator_error: 'Opération non valide sélectionnée.'
+  add: 'Additionner les deux nombres...'
+  subtract: 'En soustrayant les deux nombres...'
+  multiply: 'Multiplier les deux nombres...'
+  divide: 'Diviser les deux nombres...'
+  result: "Le résultat de l'opération sur les deux nombres est :"
+  repeat: 'Voulez-vous effectuer un autre calcul ? (Y pour recalculer)'
+  goodbye: "Merci d'avoir utilisé la calculatrice, au revoir!"
+
+
+
+
+
