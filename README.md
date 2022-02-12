@@ -1,1 +1,1 @@
-# public repo for sharing code
+# Public repository for sharing code.
