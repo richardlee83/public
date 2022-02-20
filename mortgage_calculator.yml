@@ -1,0 +1,20 @@
+# mortgage_calculator.yml
+
+welcome: 'Welcome to The Mortgage Calculator!'
+divider: '-----------------------------------'
+loan: |
+      What is the loan amount in dollars?
+      => (Example: 1000 for $1000)
+loan_error: 'Please enter a positive loan amount.'
+interest: |
+          What is the annual interest rate percentage?
+          => (Example: 5 for 5% or 2.5 for 2.5%)
+interest_error: 'Please enter a positive interest amount.'
+duration: |
+          What is the loan term in months?
+          => (Example: 24 for 2 years)
+duration_error: 'Please enter a positive loan term value.'
+payment: 'Your monthly payment is:'
+repeat: 'Would you like to do another calculation? (Y for Yes)'
+goodbye: 'Thank you for using The Mortgage Calculator!'
+
