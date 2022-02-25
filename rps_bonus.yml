@@ -1,0 +1,50 @@
+# rps_bonus.yml
+
+welcome: |+
+         Welcome to Rock, Paper, Scissors, Spock, Lizard!
+
+rules: |+
+       First player to score 3 points wins the game.
+
+       => Rules of the game:
+          - Rock beats Lizard
+          - Rock beats Scissors
+
+          - Paper beats Rock
+          - Paper beats Spock
+
+          - Scissors beats Paper
+          - Scissors beats Lizard
+
+          - Spock beats Scissors
+          - Spock beats Rock
+
+          - Lizard beats Spock
+          - Lizard beats Paper
+
+
+player_input: |+
+            Please choose Rock, Paper, Scissors, Spock, or Lizard.
+            => r = Rock, p = Paper, sc = Scissors, sp = Spock, l = Lizard
+invalid_choice: |+
+                Invalid choice.
+
+player_win_round: |+
+                  You win this round!
+
+computer_wins_round: |+
+                     Computer wins this round!
+
+tie: |+
+     It's a tie!
+
+next_round: |+
+            Press ENTER key for the next round.
+player_win_game: |+
+                 You have won the game!
+
+computer_wins_game: |+
+                    Computer has won the game!
+
+repeat_play: 'Do you want to play again? (Y for yes)'
+goodbye: 'Thank you for playing, goodbye!'
