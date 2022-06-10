@@ -1,0 +1,23 @@
+# tictactoe_bonus.yml
+
+welcome: |+
+         Welcome to Tic Tac Toe!
+
+start_playing: "Press any key to start playing..."
+difficulty_levels: |+
+                   Please select level of difficulty:
+                   1 - Easy
+                   2 - Medium
+                   3 - Hard
+                   4 - Super Hard
+difficulty_selection: "Your selection: "
+go_first: "Do you want to go first? Enter Y for Yes, N for No: "
+player_go_first: "You have chosen to go first, press any key to begin..."
+computer_go_first: "Computer will go first, press any key to begin..."
+choose_square: "Choose a square number: "
+invalid_choice: "Sorry, not a valid choice."
+tie_result: "It's a tie!"
+first_to_five_wins: "First player to win 5 games wins!"
+press_any_key: "Press any key to play next round..."
+play_again: "Play again? Y for Yes, N for No: "
+goodbye: "Thank you for playing Tic Tac Toe! Goodbye!"
