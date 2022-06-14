@@ -462,8 +462,7 @@ def next_round
 end
 
 def determine_winner(plyr_score, cmptr_score)
-  "Player" if plyr_score > cmptr_score
-  "Computer" if cmptr_score > plyr_score
+  plyr_score > cmptr_score ? "Player" : "Computer"
 end
 
 def display_final_score(brd, plyr_score, cmptr_score, winner)
