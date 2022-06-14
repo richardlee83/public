@@ -154,11 +154,24 @@ def joinor(arr, delimiter=", ", word="or")
   joinor_arr.join
 end
 
+def integer?(str)
+  str.to_i.to_s == str
+end
+
 def player_marks!(brd)
   position = nil
   loop do
     prompt messages("choose_square") + "#{joinor(empty_squares(brd))}: "
-    position = gets.chomp.to_i
+    choice = gets.chomp
+    # validate position
+    if !integer?(choice)
+      display_spacer
+      prompt messages("invalid_choice")
+      display_spacer
+      next
+    end
+    # convert choice to board position
+    position = choice.to_i
     break if empty_squares(brd).include?(position)
     display_spacer
     prompt messages("invalid_choice")
